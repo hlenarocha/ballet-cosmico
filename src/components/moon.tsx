@@ -1,8 +1,9 @@
 const moonTexture = new TextureLoader().load(moon); 
 import moon from '../assets/moon.jpeg'; // Textura da Lua
-import { TextureLoader } from 'three'; // Para carregar texturas
+import { TextureLoader, Mesh } from 'three'; // Para carregar texturas e Mesh
 import { useFrame } from '@react-three/fiber'; // Canvas para a cena 3D
 import { useRef } from 'react';
+import * as THREE from 'three';
 
 
 const Moon = () => {

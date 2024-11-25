@@ -2,6 +2,7 @@ import earth from '../assets/earth.jpeg'; // Textura da Terra
 import { TextureLoader } from 'three'; // Para carregar texturas
 import { useFrame } from '@react-three/fiber'; // Canvas para a cena 3D
 import { useRef } from 'react';
+import * as THREE from 'three';
 
 
 const earthTexture = new TextureLoader().load(earth); 
